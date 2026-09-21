@@ -15,13 +15,6 @@ For every experiment, follow this order:
 2. Run or step through the program to check it.
 3. Explain any difference between your prediction and the actual result.
 
-GETTING STARTED
-----------------------------------------------------------------------
-Save a copy of the lesson notebook as 01_practice_yourname.ipynb in the
-same folder as the original notebook. Run its setup cell in Section 0.
-Add your own Markdown and code cells at the end, labelled by task number.
-Keep both your original predictions and your corrected explanations.
-
 Create a fresh CPU for each new experiment. This Python template is ready
 to use after the setup cell. Replace the comment with your assembly
 instructions, keeping HALT as the final instruction:
