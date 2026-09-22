@@ -186,7 +186,7 @@ A. This program is intended to output 18 + 4:
 
     LDI R0, 18
     LDI R1, 4
-    ADD R0, 4
+    ADD R0, 4 # Syntax error, ADD takes 2 registers 
     OUT R0
     HALT
 
@@ -199,9 +199,9 @@ B. This program is intended to calculate 18 + 4, store the result in cell
     LDI R0, 18
     LDI R1, 4
     ADD R1, R0
-    STORE [20], R0
-    LDI R2, 20
-    OUT R2
+    STORE [20], R0 < [20] == 18
+    LDI R2, 20 
+    OUT R2 < out == 20
     HALT
 
    Predict its actual output and M[20] before running it. Find and correct
